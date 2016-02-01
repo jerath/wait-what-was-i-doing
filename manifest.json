@@ -1,0 +1,18 @@
+{
+"manifest_version": 2,
+    "name": "Wait what was I doing?",
+    "description": "Redirects you from Facebook",
+    "version": "0.1",
+    "content_scripts": [
+        {
+            "matches": [
+                "http://www.facebook.com/*",
+                "https://www.facebook.com/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+This is a Chrome Extension that redirects you to a random URL 3 seconds after you visit Facebook 
